@@ -1,1 +1,9 @@
+import { NextResponse } from "next/server";
+
+export async function GET() {
+  return NextResponse.json({
+    ok: true,
+    message: "✅ Test DB route is live and working!",
+  });
+}
 
